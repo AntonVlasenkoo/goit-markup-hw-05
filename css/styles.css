@@ -86,12 +86,16 @@ color: var(--accent-color);
 /* header */
 
 
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-nav{
     margin-right: auto;
 }
   
 .header-container{
-    border-bottom: 1px solid #ECECEC;
+
     display: flex;
     align-items: center;
 }
@@ -256,7 +260,6 @@ fill: var(--accent-color);
 .backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
-    visibility:hidden;
 }
 
 .backdrop.is-hidden .modal{
@@ -289,7 +292,8 @@ fill: var(--accent-color);
     margin: 0;
 
     background-color: var(--white-color); 
-    border-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
     cursor: pointer;
 }
 
